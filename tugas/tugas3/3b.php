@@ -10,6 +10,4 @@ function urutanAngka($angka)
         echo "<br>";
     }
 }
-$nilai = $_POST['a'];
-urutanAngka($nilai);
-// urutanAngka(5);
+urutanAngka(5);
