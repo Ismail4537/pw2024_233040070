@@ -1,14 +1,20 @@
 <?php
-echo "Menghitung luas lingkaran<br>";
+echo "<b>Menghitung luas lingkaran</b><br><br>";
 function luaslingkaran($r)
 {
-    echo 3.14 * $r * $r;
+    echo "jari-jari = " . $r . "<br>";
+    echo "Luas = " . 3.14 * $r * $r . "<br>";
+    return;
 }
-echo luaslingkaran(10) . "<br>";
+luaslingkaran(10) . "<br>";
+echo "<hr>";
 
-echo "Menghitung Keliling lingkaran<br>";
-function kelilinglingkaran($a)
+echo "<b>Menghitung Keliling lingkaran</b><br><br>";
+function kelilinglingkaran($r)
 {
-    echo 2 * 3.14 * $a;
+    echo "jari-jari = " . $r . "<br>";
+    echo "Keliling = " . 2 * 3.14 * $r . "<br>";
+    return;
+    return;
 }
-echo kelilinglingkaran(20);
+kelilinglingkaran(20);

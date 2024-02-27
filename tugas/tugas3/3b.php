@@ -1,11 +1,15 @@
 <?php
-function urutAngka($angka)
+function urutanAngka($angka)
 {
+    $nomorAwal = 1;
     for ($i = 1; $i <= $angka; $i++) {
         for ($j = 1; $j <= $i; $j++) {
-            echo $i + $j - 1 . " ";
+            echo $nomorAwal . ' ';
+            $nomorAwal++;
         }
         echo "<br>";
     }
 }
-echo urutAngka(5);
+$nilai = $_POST['a'];
+urutanAngka($nilai);
+// urutanAngka(5);
