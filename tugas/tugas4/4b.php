@@ -12,8 +12,7 @@ foreach ($hardware as $item => $barang) {
     echo $item + 1 . ". " . $barang . "<br>";
 }
 echo "<br>";
-$hardware[] = "Card reader";
-$hardware[] = "Modem";
+array_push($hardware, "Modem", "Card Reader");
 sort($hardware);
 echo "<b>Macam-macam hardware komputer baru</b><br>";
 foreach ($hardware as $item => $barang) {
