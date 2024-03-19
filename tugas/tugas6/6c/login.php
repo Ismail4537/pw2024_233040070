@@ -9,9 +9,9 @@
 
 <body>
     <form action="admin.php" method="post">
-        <input type="text" name="username">
+        Username: <input type="text" name="username">
         <br>
-        <input type="password" name="password" id="">
+        Password: <input type="password" name="password" id="">
         <br>
         <input type="submit" value="Save" name="save">
     </form>
