@@ -32,7 +32,7 @@ function tambah($data)
 function edit($data)
 {
     $conn = koneksi();
-    $id = $data['id'];
+    $id = htmlspecialchars($data['id']);
     $nama = htmlspecialchars($data['nama']);
     $nim = htmlspecialchars($data['nim']);
     $email = htmlspecialchars($data['email']);

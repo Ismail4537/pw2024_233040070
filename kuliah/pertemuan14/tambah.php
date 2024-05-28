@@ -22,7 +22,7 @@
     }
     ?>
     <div class="container col-8">
-        <h1>Tambah Mahasiswa</h1>
+        <h1 class="mt-5">Tambah Mahasiswa</h1>
         <form action="" method="post">
             <div class="mb-3">
                 <label for="nama" class="form-label">Nama Mahasiswa</label>
